@@ -1,12 +1,6 @@
 import streamlit as st
-from forms.contact import contact_form
 import plotly.express as px
 import pandas as pd
-
-
-@st.dialog("Contact Me")
-def show_contact_form():
-    contact_form()
 
 
 ##############################################################################################################
